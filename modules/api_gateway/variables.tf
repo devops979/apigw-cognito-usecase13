@@ -13,3 +13,8 @@ variable "cognito_client_id" {
 
 variable "cognito_user_pool_endpoint" {
 }
+
+variable "name" {
+  description = "Name to be used on api in apigateway"
+  type        = string
+}
