@@ -4,4 +4,6 @@ variable "lambda_name" {
 }
 
 variable "lambda_zip" {
+  description = "Path to the zip file containing the Lambda function code"
+  type        = string
 }
